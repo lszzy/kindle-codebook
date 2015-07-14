@@ -10,9 +10,10 @@
     ./kindle-codebook.sh input output.html [skips]  
   示例：  
     ./kindle-codebook.sh input/ output.html "phpinfo.php"  
-3. 将生成的html文件邮件推送给kindle邮箱，邮件标题convert，即可自动转换为azw3格式并发送给kindle设备 
-4. kindle设备下载转换后的文档即可阅读
+3. 将生成的html文件邮件推送给kindle设备，kindle设备下载后即可阅读。如需要转换格式，请将邮件标题设置为convert 
+4. 如果出现中文乱码等问题，请将生成的html文件用calibre软件转换为mobi等格式后发送给kindle  
+    calibre下载地址：http://calibre-ebook.com/download  
 
 ## 其它
 1. 浏览器查看：直接打开html文件即可查看生成的电子书
-2. php源代码：如果源代码为php文件，html还会语法高亮着色（highlight_file函数）
+2. php语法高亮：如果源代码为php文件，html文件还会语法高亮着色（highlight_file函数）
